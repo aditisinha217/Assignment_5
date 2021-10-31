@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scope.js"></script>
+    <style>
+      h1 {
+        text-align: center;
+        text-decoration: dotted;
+        color: white;
+        font-size: 40px;
+        font-family: "Rampart One", cursive;
+      }
+      body {
+        background-image: url(img21.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top center;
+        background-size: 100%;
+      }
+      section {
+        background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );
+        margin: 100px;
+        padding: 40px;
+        border: groove;
+        border-radius: 5%;
+      }
+      p {
+        color:rgb(160, 160, 160);
+        font-style: italic;
+        font-size: 20px;
+        font-family: 'Satisfy', cursive;
+      }
+      a {
+        color: #eee;
+        background-image: url(img8.jpeg);
+        font-family: "Dancing Script", cursive;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: auto;
+      }
+
+      div.one {
+        text-align: left;
+        text-decoration: none;
+        margin: 2px;
+        margin-top: 10px;
+      }
+      div.two {
+        text-align: right;
+        text-decoration: none;
+        margin: 5px;
+        margin-top: 30px;
+      }
+      h3{
+        font-family: 'Fruktur', cursive;
+        text-decoration: dotted;
+        color: white;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Scope of Variable in JS</h1>
+    <section>
+      <p>
+        The scope of a variable is the region of your program in which it is
+        defined. JavaScript variables have only two scopes.
+      </p>
+      <h3>1.Global Variables</h3>
+      <p>
+        A global variable has global scope which means it can be defined
+        anywhere in your JavaScript code.
+      </p>
+
+      <h3>2.Local Variables</h3>
+      <p>
+        A local variable will be visible only within a function where it is
+        defined. Function parameters are always local to that function.
+      </p>
+      <div class="one"><a href="procedure.html">PREVIOUS</a></div>
+      <div class="two"><a href="undefine.html">NEXT</a></div>
+    </section>
+  </body>
+</html>
